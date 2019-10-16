@@ -15,10 +15,10 @@ public class TooLargeTooSmall {
         // initialise instance variables
         chosenNum = seed;
     }
-    
-    public Integer guess(Integer g) {
-        
-        return chosenNum;
 
+    public Integer guess(Integer g) {
+        g.compareTo(chosenNum);
+        return g.compareTo(chosenNum) ;
     }
+    
 }
